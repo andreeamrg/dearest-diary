@@ -1,0 +1,149 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 165px 1.7fr;
+  grid-template-areas: "A A" "B C";
+  max-width: 100vw;
+  max-height: 80vh;
+}
+
+.A { grid-area: A; }
+
+.B { grid-area: B; }
+
+.C { grid-area: C; width: 50%;  }
+
+.bookcover {
+	width: 40vw;
+	height: 90vh;
+	float: right;
+  margin-right: 90px;
+}
+
+.menu-grid-container {
+  display: grid;
+  grid-template-columns: 200fr 200fr 200fr;
+  grid-template-rows: 50fr;
+  grid-template-areas: "menu-D menu-E menu-F";
+  float: left;
+  height: 10vh;
+  width: 40vw;
+  margin-left: 6%;
+  margin-top: 2%;
+  position: relative;
+}
+
+.menu-D { grid-area: menu-D; font-family: 'Georgia';
+  font-size: 20px;
+  
+  text-align: left;}
+
+.menu-E { grid-area: menu-E; font-family: 'Georgia';
+  font-size: 20px;
+  
+  text-align: center; }
+
+.menu-F { grid-area: menu-F; font-family: 'Georgia';
+  font-size: 20px;
+ 
+  text-align: right;}
+
+.text-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0fr 1fr;
+  grid-template-areas: "text-G" "text-H";
+}
+
+.text-G { 
+  grid-area: text-G; 
+  margin-left: 100px;
+  text-align: center;
+}
+
+.text-H { 
+  grid-area: text-H; 
+  max-height: 60vh;
+  max-width: 40vw;
+  margin-left: 100px;
+  text-align: center;
+  margin-right: 20px;
+  
+ }
+
+.logo {
+  max-width: 30vw;
+  max-height: 30vh;
+  float: left;
+  margin-top: 3.5%;
+  margin-left: -5%;
+}
+
+.dd-video {
+  min-width: 100%;
+  min-height: 100%;
+  padding-top: 5%;
+}
+
+
+a:link {
+  color: #006699;
+}
+
+
+a:visited {
+  color: #006699;
+}
+
+
+a:hover {
+  color: #006699;
+}
+
+
+a:active {
+  color: #006699;
+}
+
+a.class1:link {
+  color: black;
+}
+
+
+a.class1:visited {
+  color: black;
+}
+
+
+a.class1:hover {
+  color: black;
+}
+
+
+a.class1:active {
+  color: black;
+}
+
+.text-grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0fr 1fr;
+  grid-template-areas: "text-G" "text-H";
+}
+
+.text-G { 
+  grid-area: text-G; 
+  margin-left: 100px;
+  text-align: center;
+}
+
+.text-H { 
+  grid-area: text-H; 
+  max-height: 60vh;
+  max-width: 100vw;
+  margin-left: 100px;
+  text-align: justify;
+  
+ }
+
+ 

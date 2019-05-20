@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'American Typewriter';
+    src: url('AmericanTypewriter-CondensedLight.woff2') format('woff2'),
+        url('AmericanTypewriter-CondensedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
